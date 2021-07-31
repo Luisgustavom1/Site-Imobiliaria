@@ -13,9 +13,15 @@ const GlobalStyle = createGlobalStyle`
         font-size: 18px;
     }
     body{
-        background-image: url(${houseImg});
-        background-size: cover;
         background-repeat: no-repeat;
+        /* background-image:  */
+        /* linear-gradient(
+            #292E4B00, 
+            #292E4B10
+            ),
+            url(${houseImg}); */
+        background-image: url(${houseImg});
+        background-size: 100vw auto;
     }
     button, input, text-area{
         outline: none;

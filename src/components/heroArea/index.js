@@ -1,6 +1,7 @@
 import { Titles } from "./styled";
 
 import CardList from '../cardList'
+
 export default function HeroArea(){
     return(
         <>

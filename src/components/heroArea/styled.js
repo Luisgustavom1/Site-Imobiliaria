@@ -9,10 +9,12 @@ export const Titles = styled.div`
         font-weight: 700;
         max-width: 735px;
         margin: 0 auto;
+        line-height: 65.7px;
     }
     p{
         max-width: 630px;
         padding-top: 20px;
         margin: 0 auto;
+        opacity: .9;
     }
 `
