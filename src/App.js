@@ -6,6 +6,7 @@ import HeroArea from "./components/heroArea";
 import OurFeature from "./components/OurFeature";
 import Abouts from "./components/abouts";
 import Choose from "./components/choose";
+import SocialProof from "./components/socialProof";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <OurFeature/>
         <Abouts/>
         <Choose/>
+        <SocialProof/>
       </Main>
     </>
   );

@@ -11,11 +11,36 @@ export default function Choose(){
             <h1>Choose your perfect city</h1>
             <p>finding the dream for every owner</p>
             <CitysGrid>
-                <div className='london'><img src={london} alt='Imagem cidade London'></img></div>
-                <div className='sydney'><img src={sydney} alt='Imagem cidade London'></img></div>
-                <div className='australia'><img src={australia} alt='Imagem cidade London'></img></div>
-                <div className='NY'><img src={newYork} alt='Imagem cidade London'></img></div>
-                <div className='tokyo'><img src={tokyo} alt='Imagem cidade London'></img></div>
+                <div className='one'>
+                    <article>
+                        <h1>London</h1> 
+                        <p>45 Properties</p>
+                    </article>
+                </div>
+                <div className='two'>
+                    <article>
+                        <h1>London</h1> 
+                        <p>45 Properties</p>
+                    </article>
+                </div>
+                <div className='three'>
+                    <article>
+                        <h1>London</h1> 
+                        <p>45 Properties</p>
+                    </article>
+                </div>
+                <div className='four'>
+                    <article>
+                        <h1>London</h1> 
+                        <p>45 Properties</p>
+                    </article>
+                </div>
+                <div className='five'>
+                    <article>
+                        <h1>London</h1> 
+                        <p>45 Properties</p>
+                    </article>
+                </div>
             </CitysGrid>
         </ChooseStyle>
     )

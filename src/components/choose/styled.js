@@ -18,20 +18,69 @@ export const CitysGrid = styled.div`
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'london NY australia'
                         'sydney NY tokyo';
-    .london{
+    height: 49vh;
+    div{
+        width: 91%;
+        display: flex;
+        justify-content: flex-end;
+
+        padding: 10px 10px;
+
+        margin: 0 auto;
+    }
+    .one{
         grid-area: london;
-        background-image
+
+        background: url(${london}) no-repeat;
+        background-size: contain;     
     }
-    .sydney{
+    .two{
         grid-area: sydney;
+        background: url(${sydney}) no-repeat;
+
+        background-size: contain;
     }
-    .australia{
+    .three{
         grid-area: australia;
+        background: url(${australia}) no-repeat;
+
+        background-size: contain;
     }
-    .NY{
+    .four{
         grid-area: NY;
+        background: url(${newYork}) no-repeat;
+
+        background-size: cover;
+
+        border-radius: 5px;
+
+        height: 97.5%;
     }
-    .tokyo{
+    .five{
         grid-area: tokyo;
+        background: url(${tokyo}) no-repeat;
+
+        background-size: contain;
+    }
+    article{
+        background: rgba(255, 255, 255, 0.23);
+        backdrop-filter: blur(26px);
+        opacity: 0.8;
+
+        width: 35%;
+        height: 54px;
+
+        border-radius: 2px;
+
+        padding: 11px 15px 9px 15px;
+        h1{
+            font-size: 14px;
+            color: rgba(28, 28, 28, 1);
+        }
+        p{
+            margin-top: 3px;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 1);
+        }
     }
 `
