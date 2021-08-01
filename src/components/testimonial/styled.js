@@ -4,7 +4,6 @@ import { MainDelimit } from '../../styles/main'
 export const TestimonialStyle = styled.div`
     background: rgba(52, 84, 251, 0.05);
 
-    position: absolute;
     right: 0;
 
     width: 100vw;
@@ -74,8 +73,8 @@ export const Circle = styled.span`
     align-items: center;
 
     position: absolute;
-    border-radius: 50%;
-
+    clip-path: circle();
+    
     color: white;
     background: rgba(52, 84, 251, 1);
 

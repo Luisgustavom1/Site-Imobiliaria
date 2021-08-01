@@ -8,6 +8,7 @@ import Abouts from "./components/abouts";
 import Choose from "./components/choose";
 import SocialProof from "./components/socialProof";
 import Testimonial from "./components/testimonial";
+import Sale from './components/sale'
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Choose/>
         <SocialProof/>
         <Testimonial/>
+        <Sale/>
       </Main>
     </>
   );
