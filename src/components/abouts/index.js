@@ -5,7 +5,7 @@ export default function Abouts(){
     return(
         <AboutStyle>
             <aside>
-                <span></span>
+                <div></div>
                 <h1>Why picked us up?</h1>
                 <p>This slogan produces a feeling of confidence and also helps clients remember the name of the agent. “As an analytical realtor.</p>
                 <button>Read More &gt; </button>

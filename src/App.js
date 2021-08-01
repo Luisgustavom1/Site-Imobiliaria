@@ -7,6 +7,7 @@ import OurFeature from "./components/OurFeature";
 import Abouts from "./components/abouts";
 import Choose from "./components/choose";
 import SocialProof from "./components/socialProof";
+import Testimonial from "./components/testimonial";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Abouts/>
         <Choose/>
         <SocialProof/>
+        <Testimonial/>
       </Main>
     </>
   );

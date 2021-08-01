@@ -25,7 +25,7 @@ export const AboutStyle = styled.section`
             height: 57px;
         }
     }
-    span{
+    div{
         width: 15%;
         &:after{
             content: '';
