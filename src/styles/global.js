@@ -22,6 +22,8 @@ const GlobalStyle = createGlobalStyle`
             url(${houseImg}); */
         background-image: url(${houseImg});
         background-size: 100vw auto;
+
+        overflow-x: hidden;
     }
     button, input, text-area{
         outline: none;

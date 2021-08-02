@@ -9,6 +9,7 @@ import Choose from "./components/choose";
 import SocialProof from "./components/socialProof";
 import Testimonial from "./components/testimonial";
 import Sale from './components/sale'
+import Footer from "./components/footer";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
         <Testimonial/>
         <Sale/>
       </Main>
+        <Footer/>
     </>
   );
 }

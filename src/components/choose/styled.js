@@ -18,7 +18,11 @@ export const CitysGrid = styled.div`
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'london NY australia'
                         'sydney NY tokyo';
+
     height: 49vh;
+
+    width: 69%;
+    margin: 0 auto;
     div{
         width: 91%;
         display: flex;
@@ -63,8 +67,8 @@ export const CitysGrid = styled.div`
         background-size: contain;
     }
     article{
-        background: rgba(255, 255, 255, 0.23);
-        backdrop-filter: blur(26px);
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(15px);
         opacity: 0.8;
 
         width: 35%;

@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 export const OurFeatureStyle = styled.div`
     padding-top: 110px;
+    width: 69%;
+    margin: 0 auto;
     h1{
         margin-bottom: 23px;
     }

@@ -26,6 +26,9 @@ export const HeaderStyled = styled.header`
         color: #3454FB;
         background-color: #FFFFFF;
         border-radius: 5px;
-        padding: 15px 30px;
+        padding: 12px 28px;
+        &:hover{
+            opacity: .9;
+        }
     }
 `

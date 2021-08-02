@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
-export const SocialProofStyle = styled.section`
-    margin-top: 119px;
+export const SocialProofStyle = styled.section`    
+    width: 69%;
+    margin: 119px auto 0 auto;
     p{
         margin: 25px 0 13px 0;
     }

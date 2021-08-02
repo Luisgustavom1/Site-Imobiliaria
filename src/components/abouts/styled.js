@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const AboutStyle = styled.section`
     display: flex;
-    margin-top: 119px;
     text-align: start;
     justify-content: space-between;
     align-items: center;
+
+    width: 69%;
+    margin: 119px auto 0 auto;
     aside{
         width: 44%;
         h1{
@@ -25,12 +27,13 @@ export const AboutStyle = styled.section`
             height: 57px;
         }
     }
-    div{
-        width: 15%;
-        &:after{
-            content: '';
-            border: 4px solid #3454FB95;
-        }
+    span{
+        display: flex;
+        width: 17%;
+        content: '';
+        background: #3454FB95;
+        height: 4px;
+        margin-bottom: 13px;
     }
 `
 
